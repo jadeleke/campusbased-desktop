@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+
+<GridPane alignment="center" gridLinesVisible="true" hgap="1000.0" layoutX="2000.0" layoutY="2000.0" vgap="1000.0"
+          xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+</GridPane>
