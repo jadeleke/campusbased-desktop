@@ -70,7 +70,7 @@ public class Main extends Application {
         });
 
         Button btnSip = new Button("Sip");
-        btnColt.setOnAction(new EventHandler<ActionEvent>() {
+        btnSip.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 engine.load("https://erp.gtuc.edu.gh/");
@@ -78,7 +78,7 @@ public class Main extends Application {
         });
 
         Button btnLib = new Button("E-library");
-        btnColt.setOnAction(new EventHandler<ActionEvent>() {
+        btnLib.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 engine.load("http://library.gtuc.edu.gh/library/");
@@ -86,7 +86,7 @@ public class Main extends Application {
         });
 
         Button btnAdm = new Button("Admissions");
-        btnColt.setOnAction(new EventHandler<ActionEvent>() {
+        btnAdm.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 engine.load("https://site.gtuc.edu.gh/undergraduate-admission-requirement/");
@@ -94,7 +94,7 @@ public class Main extends Application {
         });
 
         Button btnNews = new Button("News");
-        btnColt.setOnAction(new EventHandler<ActionEvent>() {
+        btnNews.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 engine.load("https://site.gtuc.edu.gh/gtuc-history/");
@@ -102,7 +102,7 @@ public class Main extends Application {
         });
 
         Button btnHistory = new Button("History");
-        btnColt.setOnAction(new EventHandler<ActionEvent>() {
+        btnHistory.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 engine.load("https://site.gtuc.edu.gh/gtuc-history/");
@@ -110,7 +110,7 @@ public class Main extends Application {
         });
 
         Button btnCourses = new Button("Online Courses");
-        btnColt.setOnAction(new EventHandler<ActionEvent>() {
+        btnCourses.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 engine.load("http://gtuconline.gtuc.edu.gh/online/login/index.php");
@@ -118,7 +118,7 @@ public class Main extends Application {
         });
 
         Button btnReload = new Button("Reload Page");
-        btnColt.setOnAction(new EventHandler<ActionEvent>() {
+        btnReload.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 engine.reload();
